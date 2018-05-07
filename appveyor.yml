@@ -3,8 +3,8 @@ image: ubuntu
 install:
 - sh: sudo apt-get update
 - sh: sudo apt-get --assume-yes install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev openjdk-8-jdk repo
-- git config --global user.name "Pidoraz Nishebrod"
-- git config --global user.email "now.fight@fortheflagyou.wave"
+- git config --global user.name "YOUR NAME HERE"
+- git config --global user.email "your@mail.here"
 - git config --global color.ui false
 - mkdir android
 - cd android
@@ -13,7 +13,7 @@ install:
 
 test_script:
 - pwd
+- echo "Some device-tree cloning commands"
 - source build/envsetup.sh
-- echo "Tut dolzni bit kommandi dlya skachivania device tree no ya lenivaya tvar'"
 
 build: off
